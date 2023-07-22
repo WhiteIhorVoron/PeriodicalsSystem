@@ -1,0 +1,46 @@
+src/main/java: Містить основний джерело коду проекту.
+
+com.voron.controllers: Класи контролерів, які обробляють запити клієнтів.
+com.voron.dao: Класи DAO (Data Access Object) для доступу до бази даних.
+com.voron.models: Класи моделей (сутностей) предметної області.
+com.voron.services: Класи сервісів, які містять бізнес-логіку.
+com.voron.utils: Допоміжні утиліти.
+com.voron.ProjectApplication: Головний клас додатку, який запускає програму.
+com.voron.SecurityConfig: Конфігурація безпеки (для Spring Security).
+com.voron.WebConfig: Конфігурація веб-додатку (наприклад, налаштування перенаправлень).
+
+src/main/resources: Містить ресурси проекту.
+static: Статичні ресурси, такі як CSS, JS, зображення тощо.
+templates: Шаблони JSP або HTML для візуалізації сторінок.
+application.properties: Файл конфігурації для налаштування додатку (наприклад, налаштування бази даних).
+
+src/test/java: Містить джерело коду для тестів проекту.
+
+com.voron: Аналогічна структура папок, що використовується в src/main/java.
+com.voron.TestConfig: Конфігурація тестів.
+com.voron.TestUtil: Допоміжні утиліти для тестування.
+com.voron.ExampleTest: Приклад тесту.
+
+________________________________________________________________________________________________________________________
+src/main/java: Contains the main source of project code.
+
+com.voron.controllers: Controller classes that handle client requests.
+com.voron.dao: Data Access Object (DAO) classes for accessing the database.
+com.voron.models: Domain model (entity) classes.
+com.voron.services: Service classes that contain business logic.
+com.voron.utils: Utilities.
+com.voron.ProjectApplication: The main class of the application that runs the application.
+com.voron.SecurityConfig: Security Configuration (for Spring Security).
+com.voron.WebConfig: Web application configuration (e.g. redirection configuration).
+
+src/main/resources: Contains project resources.
+static: Static resources such as CSS, JS, images, etc..
+templates: JSP or HTML templates for rendering pages.
+application.properties: Configuration file for module configuration (e.g. database configuration).
+
+src/test/java: Contains source code for project tests.
+
+com.voron: Similar folder structure used in src/main/java.
+com.voron.TestConfig: Test Configuration.
+com.voron.TestUtil: Auxiliary utilities for testing.
+com.voron.ExampleTest: Example test.
