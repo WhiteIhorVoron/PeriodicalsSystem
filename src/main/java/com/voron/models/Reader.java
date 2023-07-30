@@ -19,6 +19,6 @@ public class Reader {
     @Column(nullable = false)
     private String email;
     @Column(nullable = false)
-    private double accountBalance;
+    private Double accountBalance;
 
 }
